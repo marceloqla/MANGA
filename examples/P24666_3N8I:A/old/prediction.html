@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MANGA (Version: Ubá BETA 1.0)</title>
+    <style>
+        body {
+            font-family: sans-serif;
+            font-weight: 200;
+        }
+        h1 {
+            font-weight: 200;
+
+        }
+        h2 {
+            font-weight: 200;
+
+        }
+        #pagetooltip {	
+            position: absolute;			
+            text-align: center;			
+            width: 100px;					
+            /* height: 28px;					 */
+            padding: 2px;				
+            font: 16px sans-serif;		
+            background: lightsteelblue;	
+            border: 0px;		
+            border-radius: 8px;			
+            pointer-events: none;			
+        }
+    </style>
+</head>
+<body>
+    <div id="dsm_view"></div>
+    <div id="position_view"></div>
+    <div id="mutation_view"></div>
+    <div id="pagetooltip"></div>
+    <script src="mutations_info.js"></script>
+    <script src="positions_info.js"></script>
+    <script src="d3.v5.min.js"></script>
+    <script src="d3-legend.min.js"></script>
+    <script src="prediction.js"></script>
+</body>
+</html>
